@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 53);
+    background: linear-gradient(195deg, #333357 0%, #1f1f3a 100%);
+    color: white;
+    font-size: 16px;
+    z-index: 1;
+}
+
+header {
+    position: fixed;
+    width: 90vw;
+    top: 0;
+    padding: 15px 0px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(7, 214, 221);
+    text-shadow: 0 0 10px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+header nav ul li {
+    font-weight:400;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 0px;
+}
+
+header nav ul li::after {
+    content: '';
+    position: absolute;
+
+}
+
+.about-me {
+    padding-top: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+img {
+    width: 300px;
+    right: 30px;
+    bottom: 70px;
+    border-radius: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+ .cur {
+    position:absolute;
+    left: 170px;  
+    bottom: 140px; 
+    color: #1f1f3a;
+    background-color: rgb(7, 214, 221);
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: "Bebas Neue", sans-serif;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.about {
+    width: 60%;
+    padding-left: 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 4;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: rgb(7, 214, 221);
+    font-family: "Orbitron", sans-serif;
+    z-index: 5;
+}
+
+.text {
+    padding-bottom: 30px;
+    top: 1000px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    z-index: 6;
+}
+
+.tittle-projects {
+    display: flex;
+    justify-content: center;
+    color: rgb(7, 214, 221);
+    padding: 40px;
+    font-size: 50px;
+    font-weight: 900;
+    z-index: 2;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    z-index: 8;
+}
+
+.projeto1 {
+    display: inline-block;
+    width: 300px;
+    height: 380px;
+    background-color:rgba(7, 214, 221, 0.146);
+    border-radius: 20px;
+    z-index: 3;
+}
+
+.projeto1 H1 {
+    color: rgb(7, 214, 221);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    z-index: 3;
+}
+
+.projeto2 {
+    display: inline-block;
+    width: 300px;
+    height: 380px;
+    background-color:rgba(7, 214, 221, 0.146);
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 20px;
+    z-index: 3;
+}
+
+.projeto2 H1 {
+    color: rgb(7, 214, 221);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    z-index: 3;
+}
+
+.projeto3 {
+    display: inline-block;
+    width: 300px;
+    height: 380px;
+    background-color:rgba(7, 214, 221, 0.146);
+    border-radius: 20px;
+    z-index: 3;
+}
+
+.projeto3 H1 {
+    color: rgb(7, 214, 221);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    z-index: 3;
+}
+
+.contatos h2 {
+    margin-left: 650px;
+    color: rgb(7, 214, 221);
+}
+
+.contatos .whatsapp {
+    width: 150px;
+    height: px;
+    font-weight: 900;
+    margin-left: 650px;
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(7, 214, 221);
+    color:black;
+    padding: 15px 0px 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+    
+}
+
+.contatos .email {
+    width: 150px;
+    font-weight: 900;
+    margin-left: 650px;
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(7, 214, 221);
+    color: black;
+    padding: 15px 0px 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+}
+
+.contatos .instagram {
+    width: 150px;
+    font-weight: 900;
+    margin-left: 650px;
+    margin-top: 10px;
+    display: block;
+    flex-direction: column;
+    background-color: rgb(7, 214, 221);
+    color: black;
+    padding: 15px 0px 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+}
+
+.contatos .linkedin {
+    width: 150px;
+    font-weight: 900;
+    margin-left: 650px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    display: block;
+    flex-direction: column;
+    background-color: rgb(7, 214, 221);
+    color: black;
+    padding: 15px 0px 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: none;
+}
+
+.circle {
+    position: fixed;
+    border: 1px solid rgba(25, 241, 249, 0.2);
+    z-index: 1;
+}
+
+.circle:nth-child(1) {
+    width:400px;
+    height: 400px;
+    top: 70%;
+    right: 85%;
+    border-top-width: 20px;
+    border-top-right-radius: 250px;
+    z-index: 1;
+}
+
+.circle:nth-child(2) {
+    width: 300px;
+    height: 300px;
+    top: 60%;
+    left: 85%;
+    border-top-width: 20px;
+    border-top-left-radius: 250px;
+    z-index: 1;
+}
+
